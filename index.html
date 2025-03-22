@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Polyglot Playground</title> 
+        <link rel="stylesheet" href="style.css"> 
+        </head> 
+        <body> 
+            <div class="container"> 
+                <h1>🌍 Welcome to Polyglot Playground! 🎉</h1> 
+                <p>Get in touch with your mother tongue in a fun, interactive way! Choose a language to begin:</p> 
+                
+                <div class="language-options"> 
+                    <a href="yoruba.html" class="language-card"> 
+                        YR <h2>Learn Yoruba</h2> 
+                        <p>Start with greetings, introductions, and more!</p> 
+                    </a> 
+                    <a href="swahili.html" class="language-card"> 
+                        SW <h2>Learn Swahili</h2> 
+                        <p>Begin your Swahili journey today!</p> 
+                    </a> 
+                </div> 
+                
+                <div class="footer"> 
+                    <p>🌟 Keep learning, keep growing! 🌟</p> 
+                </div> 
+            </div> 
+
+            <script> 
+            document.addEventListener("DOMContentLoaded", function() { 
+                const cards = document.querySelectorAll(".language-card"); 
+                cards.forEach(card => { card.addEventListener("mouseenter", () => { 
+                    card.style.transform = "scale(1.05)";
+                }); 
+                card.addEventListener("mouseleave", () => { 
+                    card.style.transform = "scale(1)"; 
+                }); 
+            }); 
+        }); 
+    </script> 
+</body> 
+</html>

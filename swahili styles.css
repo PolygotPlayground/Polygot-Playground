@@ -1,0 +1,32 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #ffe6f2; /* Light pink background */ 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+} 
+h1 { 
+    color: #d63384; 
+    margin-top: 20px; 
+} 
+
+.greetings-container { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 900px; 
+    margin: 20px auto; 
+} 
+
+.greeting-box { 
+    background-color: #ffb6c1; /* Light pink boxes */ 
+    padding: 15px; 
+    border-radius: 10px; 
+    width: 40%; /* Each box takes about half of the container */ 
+    min-width: 250px; 
+    text-align: center; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+    font-size: 18px; 
+    font-weight: bold; 
+}
