@@ -1,0 +1,77 @@
+/* General Page Styling */ 
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: white; 
+    text-align: center; 
+    padding: 20px; 
+} 
+
+/* Page Title */ 
+.page-title { 
+    font-size: 30px; 
+    font-weight: bold; 
+    color: #127804; /* Dark Green */ 
+    margin-bottom: 20px; 
+} 
+
+/* Two Columns for Greetings */ 
+.greetings-container { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */ 
+    gap: 20px; 
+    justify-content: center; 
+    max-width: 800px; 
+    margin: auto; 
+} 
+
+/* Greeting Boxes */ 
+.greeting-item { 
+    background-color: #047857; /* Dark Green */ 
+    color: white; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center; 
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out; 
+} 
+
+/* Hover Effect */ 
+.greeting-item:hover { 
+    background-color: #065f46; /* Slightly darker green */ 
+    transform: scale(1.05); 
+} 
+
+/* Buttons (Quiz & Back to Menu) */ 
+.quiz-button, .back-button { 
+    display: inline-block; 
+    margin-top: 30px; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    border-radius: 8px; 
+    transition: background 0.3s, transform 0.3s; 
+} 
+
+/* Quiz Button */ 
+.quiz-button { 
+    background-color: #22c55e; /* Light Green */ 
+    color: white; 
+} 
+
+.quiz-button:hover { 
+    background-color: #16a34a; /* Darker Green */ 
+    transform: scale(1.05); 
+} 
+
+/* Back to Menu Button */ 
+.back-button { 
+    background-color: #dc2626; /* Red */ 
+    color: white; 
+} 
+
+.back-button:hover { 
+    background-color: #b91c1c; /* Darker Red */ 
+    transform: scale(1.05); 
+}

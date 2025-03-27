@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const questions = [ 
         { question: "How do you say 'Hello' in Yoruba?", options: ["Bawo ni", "O da", "E se", "Kedu"], answer: "Bawo ni" }, 
         { question: "What is the response to 'Bawo ni'?", options: ["Mo wa dada", "O dara", "E nle", "Daada ni"], answer: "Mo wa dada" }, 
-        { question: "How do you say 'Good night' in Yoruba?", options: ["O da ro", "E ku irole", "Kaaro", "E ku odun"], answer: "O da ro" } 
+        { question: "How do you say 'Good night' in Yoruba?", options: ["Ẹ káalẹ", "E ku irole", "Kaaro", "E ku odun"], answer: "Ẹ káalẹ" } 
     ]; 
     
     function loadQuestion() { 

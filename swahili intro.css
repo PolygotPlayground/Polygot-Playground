@@ -31,7 +31,7 @@ body {
     
     /* Hover effect */
     .greeting-item:hover {
-    background-color: #d43088; /* A slightly darker pink on hover */
+    background-color: #FF1493; /* A slightly darker pink on hover */
     transform: scale(1.05); /* Slight zoom effect */
     }
     
@@ -51,6 +51,6 @@ body {
     
     /* Hover effect for buttons */
     .quiz-button:hover, .back-button:hover {
-    background-color: #d32d85; /* Slightly darker pink */
+    background-color: #FF1493; /* Slightly darker pink */
     }
 
